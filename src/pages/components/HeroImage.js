@@ -1,4 +1,7 @@
 import Nav from './Nav'
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowCircleDown, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 
 function HeroImage() {
@@ -43,7 +46,7 @@ function HeroImage() {
                             <p>See the world</p>
                         </div>
                     </div>
-                    <img src='./assets/down-arrow.png' />
+                    <FontAwesomeIcon id='hero-card-scroll' icon={faArrowCircleDown} size='lg'/>
                 </div>
 
             </div>

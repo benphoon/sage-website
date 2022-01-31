@@ -236,6 +236,9 @@ nav .nav-links li {
 
 .hero-image-content-right {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   z-index: 1;
   margin-top: -10vh;
   overflow: hidden;
@@ -246,16 +249,8 @@ nav .nav-links li {
   /* border: 1px solid red; */
 }
 
-.hero-image-content-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-
-  width: 40%;
-  margin-left: 2vw;
-  margin-right: 2vw;
-
-  /* border: 1px solid black; */
+#hero-card-scroll {
+  margin-top: 2vh;
 }
 
 .hero-image-cards {
@@ -263,7 +258,6 @@ nav .nav-links li {
   height: 70%;
 
   margin-top: 8vh;
-  margin-left: 5vw;
   overflow-y: scroll;
 
   /* border: 2px solid blue; */
@@ -393,6 +387,41 @@ nav .nav-links li {
 
   background:rgba(226, 226, 226, 0.685);
 }
+
+
+/* Homepage Testimonials */
+.testimonials {
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red;
+}
+
+.testimonials-container {
+  width: 80%;
+  height: 100%;
+}
+
+.testimonial-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  width: 25vw;
+
+  margin: 4em;
+  padding: 2em;
+
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
 
 
 /* Footer */
